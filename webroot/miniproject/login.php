@@ -1,0 +1,38 @@
+
+
+<?php
+
+session_start();
+
+$con = mysqli_connect("localhost", "root", "Password1");
+
+mysqli_select_db($con, logindetails);
+
+$email = $_POST["email"];
+$password = $_POST["password"];
+
+$_SESSION["loggedin"] = false;
+
+$_SESSION["email"] = $email;
+$_SESSION["password"] = $password;
+
+$s = " select * from logindetails where email = '$email' && password = '$password'";
+
+$result = mysqli_query($con, $s); //returns all rows that contain the requested email and password
+//(should be 1 if the login details are correct)
+
+$validation = mysqli_num_rows($result); //checks how many login details in the database match the input
+//should be only 1 if correct details entered
+
+
+if($validation ==1){
+  header("location: addPost.html");
+  $_SESSION["loggedin"] = true;
+}
+else{
+  header("location: index.php");
+  $error = "Your Login Name or Password is invalid";
+  $_SESSION["loggedin"] = false;
+}
+
+?>

@@ -1,0 +1,129 @@
+.mainColour{
+  background-color: #F95700;
+  color: white;
+
+}
+
+header{
+  padding: 1%;
+  border-bottom: solid 30px;
+  border-color: rgb(227,227,227);
+
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
+
+header h2, header nav{
+  display: inline-block;
+}
+
+header nav{
+  float: right;
+  padding-top: 0.3%;
+  padding-right: 3%;
+}
+
+li a{
+  color: white;
+  padding: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  border: solid 1px;
+  border-color: transparent;
+  border-radius: 0.2em;
+  text-decoration: none;
+}
+
+li{
+  display: inline-block;
+
+}
+
+a:hover{
+  color: white;
+  background-color: #00A4CC;
+  text-decoration: none;
+}
+
+
+
+nav ul{
+  list-style-type: none;
+  font-size: 24px;
+}
+
+body{
+  background-color: white;
+
+}
+
+#mainContainer{
+  text-align: center;
+  margin-left: 25%;
+  margin-top: 4%;
+  margin-bottom: 7%;
+}
+
+legend{
+  background-color: #F95700;
+  color: white;
+  font-family: "Arial Black", Gadget, sans-serif;
+  text-align: center;
+
+  align-self: center;
+  width: 40%;
+  margin: auto;
+  font: bold;
+
+  border-radius: 0.1em;
+}
+
+label{
+  text-align: left;
+  padding-left: 1%;
+}
+
+div{
+  padding: 2%;
+  text-align: left;
+}
+
+fieldset{
+  font-family: sans-serif;
+  background-color: rgb(227,227,227);
+  border-top: solid 10px;
+  border-bottom: solid 10px;
+  border-color: #00A4CC;
+  border-radius: 0.5em;
+  width: 70%;
+}
+
+
+.btn{
+    background-color: #F95700;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 20%;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+#buttonDiv{
+  text-align: center;
+  padding: 10%;
+  padding-top: 0%;
+}
+#submitbtn{
+  float: left;
+}
+#clearbtn{
+  float: right;
+}
+
+footer{
+  border-top: solid 30px;
+  border-color: rgb(227,227,227);
+  padding: 1%;
+
+
+  font-family: "Arial Black", Gadget, sans-serif;
+}

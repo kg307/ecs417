@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+      <head lang="en">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+        <title>Add Post</title>
+        <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css">
+
+
+        <link rel="stylesheet" href="./css/reset.css" type="text/css">
+        <link rel="stylesheet" href="./css/addPost.css" type="text/css">
+
+
+      </head>
+
+      <header class="mainColour">
+        <h2>Kinga Garbowska</h2>
+        <nav>
+          <ul>
+            <li><a href="index.php">Home</a></li>
+            <li><br></li>
+            <li><br></li>
+            <li><a href="viewBlog.php">Blog</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <body>
+
+        <div id="mainContainer">
+          <form method="POST" action="addPost.php">
+
+
+            <fieldset>
+              <legend>Add Post</legend>
+              <div>
+                <label>Title</label>
+                <br>
+                <input type="text" placeholder="Add Title..." name="title" class="form-control" required/>
+              </div>
+
+              <br>
+
+              <div>
+                <label>Content</label>
+                <br>
+                <textarea rows="5" placeholder="Description..." name="content" class="form-control" required></textarea>
+
+              </div>
+
+              <div id="buttonDiv">
+                <button type="submit" id="submitbtn" class="btn">Post</button>
+
+                <button type="reset" id="clearbtn" class="btn" onclick="return confirmClear();">Clear</button>
+              </div>
+
+            </fieldset>
+
+            <script>
+              function confirmClear(){
+                return confirm("Clear all text?");
+              }
+            </script>
+
+          </form>
+        </div>
+
+      </body>
+
+      <footer class="mainColour">
+        email
+        phone
+        linkedin
+      </footer>
+
+
+</html>
