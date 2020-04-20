@@ -4,7 +4,7 @@
 
 session_start();
 
-$con = mysqli_connect("localhost", "root", "Password1");
+$con = mysqli_connect("localhost", "user", "password");
 
 mysqli_select_db($con, logindetails);
 
