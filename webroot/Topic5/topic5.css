@@ -1,0 +1,155 @@
+header{
+  background-color: lightgreen;
+  padding: 1%;
+  font-family: sans-serif;
+  font-size: 1.5em;
+}
+
+ul{
+  list-style: none;
+  padding: 1%;
+}
+
+
+
+h3{
+  background-color: lightgreen;
+  padding: 2%;
+  padding-left: 3%;
+  float: both;
+  font-family: sans-serif;
+  border: solid 0.5em;
+  border-color: lightgreen;
+}
+#modulesh3{
+  background-color: transparent;
+  border: none;
+}
+
+#moviesh3{
+
+}
+
+header a{
+  font-family: sans-serif;
+  padding: 1%;
+}
+
+#title{
+  font-weight: bolder;
+  padding: 1%;
+}
+
+div#container{
+  position: relative;
+
+}
+
+aside#left{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 17em;
+
+}
+
+#modules{
+  background-color: lightgrey;
+  padding: 10%;
+
+  margin: 5%;
+
+}
+
+#links{
+  background-color: lightgrey;
+  padding: 10%;
+
+  margin: 5%;
+
+}
+
+#skills{
+  background-color: white;
+  padding: 10%;
+  padding-left: 10%;
+  margin: 5%;
+  padding-bottom: 20%;
+  border: solid 1em;
+  border-color: lightgrey;
+}
+
+ul#skillsul li img{
+  width: 2em;
+  padding: 1%;
+}
+
+img.medals{
+  float: left;
+  left: 0;
+  height: 2em;
+  width: 2em;
+}
+
+
+
+div#main{
+  margin-left: 20em;
+  margin-right: 20em;
+  padding: 1%;
+}
+
+p{
+  padding: 1%;
+
+  margin: 1%;
+}
+
+img{
+  float: right;
+  height: 10em;
+  width: 8em;
+}
+
+#about{
+  position: relative;
+  padding-top: 3%;
+  padding-bottom: 10%;
+  border-bottom: solid 1px;
+  border-color: black;
+
+}
+
+#education{
+  padding-top: 5%;
+  position: relative;
+}
+
+
+aside#right{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 17em;
+
+}
+
+
+#hobbies{
+  background-color: white;
+  padding: 10%;
+
+  margin: 5%;
+  border: solid 1em;
+  border-color: lightgrey;
+
+}
+
+#movies{
+  background-color: white;
+  padding: 10%;
+
+  margin: 5%;
+  border: solid 1em;
+  border-color: lightgrey;
+}
