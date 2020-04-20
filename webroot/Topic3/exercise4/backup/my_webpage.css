@@ -1,0 +1,190 @@
+/*my_webpage.css*/
+
+/*reset*/
+@import "reset.css"
+
+
+/*----------------------------------------------------------------------  WEBPAGE CONTENT/BODY----------------------------------------------------------*/
+/*content: paragraphs about me and my photo*/
+div {
+  background-color: white;
+}
+
+
+div {
+  background-color: white;
+  margin: 2%;
+}
+
+
+/*control spacing between paragraphs*/
+p{
+  margin-left: 1%;
+  margin-top: 0.1%;
+  margin-bottom: 1%;
+  padding: 1%;
+  display: block;
+}
+
+body {
+  background-color: rgb(56, 52, 95);
+}
+
+/*------------------------------------------------------END OF CONTENT-------------------------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------------HEADERS, FOOTERS AND HEADINGS---------------------------------------------------------------------*/
+/*separate the top and bottom of the page from the content*/
+header, footer {
+  background-color: rgb(34, 31, 63);
+  margin: 2%;
+  padding: 0px;
+  color: white;
+}
+
+
+footer {
+  border: solid 15px;
+  border-color: transparent;
+  color: white;
+}
+
+
+
+/*Main title and subheadings*/
+h1, h2, h3 {
+  margin: 1%;
+  padding: 1%;
+  font-family: sans-serif;
+  /*
+  border-bottom: 10px;
+  border-bottom-color: rgb(56, 52, 95);
+  */
+}
+
+h1{
+  text-decoration: underline;
+}
+
+
+/*the h3 headings (the actual content headings) need an underline border*/
+h3 {
+  border-bottom: solid 1px;
+  border-bottom-color: black;
+}
+
+#about {
+  padding-top: 0.8%;
+}
+
+h4{
+  margin-top: 0%;
+  margin-bottom: 1%;
+  margin-left: 2%;
+  margin-bottom: 2%
+  padding: 1%;
+  font-family: sans-serif;
+  font-weight: 900;
+  /*text-decoration: underline;*/
+}
+
+/*Title of the webpage*/
+#top {
+  font-size: 150%;
+  font-family: sans-serif;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+
+/*-------------------------------------------------------------------END OF HEADERS, FOOTERS AND HEADINGS---------------------------------------------------------------------------------------*/
+
+
+
+
+
+/*------------------------------------------------All links in the webpage------------------------------------------*/
+nav {
+  background-color: rgb(204, 201, 229);
+  border: solid 15px;
+  border-color: transparent;
+}
+
+
+a {
+  background-color: inherit;
+  border: inherit;
+  border-color: transparent;
+  color: blue;
+  font-family: sans-serif;
+}
+
+header a {
+  background-color: inherit;
+  border: inherit;
+  border-color: transparent;
+  color: rgb(56, 52, 95);
+  font-family: sans-serif;
+}
+
+footer a {
+  background-color: inherit;
+  border: inherit;
+  border-color: transparent;
+  color: white;
+  font-family: sans-serif;
+}
+
+/*add effects when hovering over links*/
+.externallink:hover{
+  color: purple;
+}
+
+.footerlink:hover{
+  background-color: rgb(204, 201, 229);
+}
+
+.headerlink:hover{
+  background-color: rgb(34, 31, 63);
+  color: white;
+}
+
+/*-------------------------------------------------end of links----------------------------------------------------------------------------------*/
+
+
+
+/*----------------------------------------------------------------------------LISTS------------------------------------------------------------------------*/
+/*controlling spacing of elements in a list; the links near the bottom of the body*/
+ul {
+  background-color: inherit;
+  margin-left: 3%;
+  padding-left: 1%;
+  padding-top: 0%;
+  margin-top: 0%;
+}
+
+li {
+  background-color: inherit;
+  margin: 0.25%;
+  margin-left: 1%
+  padding: 0.25%;
+}
+
+/*
+#linkstext {   [[[[nav h3 p]]]
+  margin: 0%;
+  padding: 0%;
+}
+*/
+/*-----------------------------------------------------------------------END OF LINKS-------------------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------------IMAGES-------------------------------------------------------------------------*/
+/*CSS for the image on the webpage*/
+img {
+  margin: 2%;
+  border: solid 6px;
+  border-color: rgb(204, 201, 229);
+}
+/*----------------------------------------------------------------------END OF IMAGES----------------------------------------------------------------------------*/

@@ -1,0 +1,7 @@
+header{background-color: silver}
+div{background-color: silver;
+font-size: 24pt;}
+
+strong{background-color: red;}
+
+@import "exercise2_s2.css"

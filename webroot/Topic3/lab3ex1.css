@@ -1,0 +1,16 @@
+header{background-color: silver}
+div{background-color: silver;
+font-size: 24pt;}
+
+strong{background-color: red;}
+
+p, ul{background-color: green;}
+
+#cool.shiny{background-color:blue}
+
+a:hover{
+  background-color: purple;
+}
+
+
+ol li a{color: orange;}
