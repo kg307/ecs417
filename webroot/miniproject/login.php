@@ -6,7 +6,7 @@ session_start();
 
 $con = mysqli_connect("localhost", "user", "password");
 
-mysqli_select_db($con, logindetails);
+mysqli_select_db($con, ecs417);
 
 $email = $_POST["email"];
 $password = $_POST["password"];

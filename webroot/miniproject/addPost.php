@@ -6,7 +6,7 @@ session_start();
 if(isSet($_SESSION["email"])){
 
 
-    $con = new mysqli("localhost", "user", "password", "blog");
+    $con = new mysqli("localhost", "user", "password", "ecs417");
 
     $title = $_POST["title"];
     $content = $_POST["content"];
