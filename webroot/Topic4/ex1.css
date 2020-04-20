@@ -1,0 +1,21 @@
+caption{
+  background-color: rgb(0, 153, 153);
+}
+
+table{
+  border: solid 0.1px;
+  border-color: rgb(0, 153, 153);
+}
+
+td, tr, th{
+  border: solid 0.1px;
+  border-color: grey;
+}
+
+th{
+  background-color: lightgrey;
+}
+
+.rowheadings{
+  background-color: white;
+}

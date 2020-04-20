@@ -1,0 +1,58 @@
+caption{
+  background-color: darkred;
+  padding: 3%;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 900;
+}
+
+img{
+  height: 15em;
+  width: 10em;
+  border-radius: 10%;
+  padding: 1%;
+  margin: auto;
+}
+
+table{
+  border: solid 1px;
+  border-color: black;
+  padding: 1%;
+  text-align: center;
+}
+
+.casttable {
+  border: solid 1px;
+  border-color: black;
+  padding: 2%;
+  width: 100%;
+  text-align: center;
+
+}
+
+.cast{
+  width: 50%;
+
+
+}
+
+td{
+  border: solid 1px;
+  border-color: grey;
+  text-align: center;
+}
+
+th{
+  border: solid 1px;
+  border-color: grey;
+  background-color: lightgrey;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 900;
+}
+
+
+.cast{
+
+  border-color: grey;
+}

@@ -1,0 +1,8 @@
+/*reset*/
+header, nav, div, footer, p, body, h1, h3, h4, h5, h6, article, ul, li, a, html{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
