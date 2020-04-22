@@ -43,7 +43,7 @@ session_start();
 
           <?php
 
-            $con = new mysqli("localhost", "user", "password", "ecs417");
+            $con = new mysqli("10.129.17.32", "user", "password", "ecs417");
 
             require_once("nbbc.php");
             $bbcode = new BBCode;
