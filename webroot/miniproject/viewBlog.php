@@ -26,7 +26,7 @@ session_start();
           <ul>
             <li><a href="index.php">Home</a></li>
             <?php
-              if (isset($_SESSION['email'])){
+              if (isset($_SESSION["loggedin"])){
             ?>
             <li id="logout"><a href="logout.php">Logout</a></li>
             <?php

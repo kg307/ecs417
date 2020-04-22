@@ -3,7 +3,7 @@
 <?php
 session_start();
 
-if(isSet($_SESSION["email"])){
+if(isSet($_SESSION["loggedin"])){
 
 
     $con = new mysqli("10.129.17.32", "user", "password", "ecs417");

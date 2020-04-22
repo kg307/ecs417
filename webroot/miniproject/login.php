@@ -11,7 +11,6 @@ mysqli_select_db($con, ecs417);
 $email = $_POST["email"];
 $password = $_POST["password"];
 
-$_SESSION["loggedin"] = false;
 
 $_SESSION["email"] = $email;
 $_SESSION["password"] = $password;
@@ -32,7 +31,6 @@ if($validation ==1){
 else{
   header("location: index.php");
   $error = "Your Login Name or Password is invalid";
-  $_SESSION["loggedin"] = false;
 }
 
 ?>

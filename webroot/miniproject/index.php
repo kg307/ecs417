@@ -25,21 +25,21 @@ session_start();
         <nav id="headNav">
           <div>
             <a href="CV.docx" download="Kinga Garbowska">
-              <img src="/icons/CV_icon.png">
+              <img src="https://denisnowak.com/temp/kinga/icons/CV_icon.png">
             </a>
             <br>
             CV
           </div>
           <div>
             <a href="viewBlog.php">
-              <img src="/icons/blog_icon.png">
+              <img src="https://denisnowak.com/temp/kinga/icons/blog_icon.png">
             </a>
             <br>
             Blog
           </div>
           <div>
             <a href="#mainText">
-              <img src="/icons/about_icon.png">
+              <img src="https://denisnowak.com/temp/kinga/icons/about_icon.png">
             </a>
             <br>
             About
@@ -98,7 +98,7 @@ session_start();
 
             <div id = "login" class="col-sm-3">
               <?php
-                if (!isset($_SESSION['email']) || empty($_SESSION['email'])){  ?>
+                if (!isset($_SESSION["loggedin"]) || empty($_SESSION['email'])){  ?>
 
 
               <form method="POST" action="login.php">
