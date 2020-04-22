@@ -42,7 +42,7 @@ session_start();
         <article id="mainContainer">
 
           <?php
-            error_reporting(0);
+
             $con = new mysqli("localhost", "user", "password", "ecs417");
 
             require_once("nbbc.php");
@@ -77,12 +77,12 @@ session_start();
           ?>
 
 
-          
+
 
 
 
         </article>
-          <a href="addPost.html"> <button class="btn">Add Post</button></a>
+        <a href="addPost.html"> <button class="btn">Add Post</button></a>
       </body>
 
       <footer class="mainColour">
