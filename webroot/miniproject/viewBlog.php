@@ -77,11 +77,12 @@ session_start();
           ?>
 
 
-          <a href="addPost.html"> <button class="btn">Add Post</button></a>
+          
 
 
 
         </article>
+          <a href="addPost.html"> <button class="btn">Add Post</button></a>
       </body>
 
       <footer class="mainColour">
