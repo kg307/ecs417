@@ -25,21 +25,21 @@ session_start();
         <nav id="headNav">
           <div>
             <a href="CV.docx" download="Kinga Garbowska">
-              <img src="./icons/CV_icon.png">
+              <img src="/icons/CV_icon.png">
             </a>
             <br>
             CV
           </div>
           <div>
             <a href="viewBlog.php">
-              <img src="./icons/blog_icon.png">
+              <img src="/icons/blog_icon.png">
             </a>
             <br>
             Blog
           </div>
           <div>
             <a href="#mainText">
-              <img src="./icons/about_icon.png">
+              <img src="/icons/about_icon.png">
             </a>
             <br>
             About
