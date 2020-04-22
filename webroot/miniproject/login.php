@@ -4,7 +4,7 @@
 
 session_start();
 
-$con = mysqli_connect("localhost", "user", "password");
+$con = mysqli_connect("10.129.17.32", "user", "password");
 
 mysqli_select_db($con, ecs417);
 
