@@ -53,35 +53,53 @@ session_start();
                 <section>
                   <h3 class="cursorChange" data-toggle="collapse" data-target="#collapseAbout" aria-expanded="true" aria-controls="card-block">About me</h3>
                   <p id="collapseAbout" class="collapse">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel porta nibh. Quisque iaculis dui sit amet lorem porttitor ullamcorper. Suspendisse et tellus nulla. Vestibulum vehicula auctor aliquet. Nunc tincidunt massa nunc, a pulvinar nibh imperdiet eu. Vivamus risus ipsum, luctus a vestibulum a, convallis sed lectus. Praesent eu orci mollis, mattis justo sit amet, elementum metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut at tristique velit.
+                    My name is Kinga Garbowska and I am a student at <em>Queen Mary, University of London.</em> Currently, I am in my firt year of the computer science undergraduate course.
+                    This is my first portfolio website, where you can find out a bit more about me and my interests.
                   </p>
                 </section>
 
                 <section>
                   <h3 class="cursorChange" data-toggle="collapse" data-target="#collapseSkills" aria-expanded="true" aria-controls="card-block">Skills</h3>
                   <p id="collapseSkills" class="collapse">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel porta nibh. Quisque iaculis dui sit amet lorem porttitor ullamcorper. Suspendisse et tellus nulla. Vestibulum vehicula auctor aliquet. Nunc tincidunt massa nunc, a pulvinar nibh imperdiet eu. Vivamus risus ipsum, luctus a vestibulum a, convallis sed lectus. Praesent eu orci mollis, mattis justo sit amet, elementum metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut at tristique velit.
+                    From my degree so far, I have acquired numerous technical skills. These include programming in java in procedural and object-oriented styles, creating a webpage using HTML, css, bootstrap, php and javascript, logical thinking and professional research.
+                    Alongside these technical skills, I also gained soft skills as a byproduct of participating in my modules. For example: Leadership, organizing planning and teamwork. I make sure to put myself out of my comfort zone with sports such as Taekwondo, which help me gain confidence and discipline. This encourages me to persevere and work hard, and significantly boosts my teamwork and leadership abilities.
+                    I am also bilingual; I am fluent in Polish and English.
+                    I will write more about these experiences and skills in my blog, which I encourage you to check out <a href="viewBlog.php">here</a>.
                   </p>
                 </section>
 
                 <section>
                   <h3 class="cursorChange" data-toggle="collapse" data-target="#collapseAchievements" aria-expanded="true" aria-controls="card-block">Achievements</h3>
                   <p id="collapseAchievements" class="collapse">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel porta nibh. Quisque iaculis dui sit amet lorem porttitor ullamcorper. Suspendisse et tellus nulla. Vestibulum vehicula auctor aliquet. Nunc tincidunt massa nunc, a pulvinar nibh imperdiet eu. Vivamus risus ipsum, luctus a vestibulum a, convallis sed lectus. Praesent eu orci mollis, mattis justo sit amet, elementum metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut at tristique velit.
+                    Here are some of my favorite achievements:
+                    <ul>
+                      <li>Achieving AAB in Maths, Biology and Physics A-levels respectively</li>
+                      <li>Being selected for a week of work experience at Canary Wharf Barclays</li>
+                      <li>Competing in national ITF Taekwondo Tournaments</li>
+                      <li>Earning the Haberdashers' Jeston Scholarship 2019</li>
+                    </ul>
                   </p>
                 </section>
 
                 <section>
                   <h3 class="cursorChange" data-toggle="collapse" data-target="#collapseEducation" aria-expanded="true" aria-controls="card-block">Education</h3>
                   <p id="collapseEducation" class="collapse">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel porta nibh. Quisque iaculis dui sit amet lorem porttitor ullamcorper. Suspendisse et tellus nulla. Vestibulum vehicula auctor aliquet. Nunc tincidunt massa nunc, a pulvinar nibh imperdiet eu. Vivamus risus ipsum, luctus a vestibulum a, convallis sed lectus. Praesent eu orci mollis, mattis justo sit amet, elementum metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut at tristique velit.
+                    My education so far:
+                    <ol>
+                      <li><b>2017-2019</b> A Levels - Haberdashers' Aske's Hatcham College</li>
+                      <li><b>2019-2023</b> UnderGraduate - Queen Mary University of London (Currently in progress)</li>
+                    </ol>
                   </p>
                 </section>
 
                 <section>
                   <h3 class="cursorChange" data-toggle="collapse" data-target="#collapseExperience" aria-expanded="true" aria-controls="card-block">Experience</h3>
                   <p id="collapseExperience" class="collapse">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel porta nibh. Quisque iaculis dui sit amet lorem porttitor ullamcorper. Suspendisse et tellus nulla. Vestibulum vehicula auctor aliquet. Nunc tincidunt massa nunc, a pulvinar nibh imperdiet eu. Vivamus risus ipsum, luctus a vestibulum a, convallis sed lectus. Praesent eu orci mollis, mattis justo sit amet, elementum metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut at tristique velit.
+                    I try to look out for opportunities to volunteer and gain work experience. Not only is this for career insight, but also to build my qualities as a person.
+                    My work experience includes a week at Barclays Canary Wharf and a week at Childeric Primary School.
+                    I have volunteered at SMASHFestUK (a local science festival) as an event planner and host, Vietschool as an english and maths teacher, and at Forest Hill Polish school as a Polish teacher.
+                    Currently, I am an employee at Chozen Noodle, Excel. I am in a customer service role, where I am able to further improve my public communication skills as well as observe how the business is run logistically.
+                    These experiences have helped me build communication and explanation skills, as well as insight on logistics, which was applied in my volunteering at SMASHfestUK.
                   </p>
                 </section>
 
@@ -145,9 +163,10 @@ session_start();
         </div>
 
         <footer class="mainColour">
-          email
-          phone
-          linkedin
+          <a class="footerlink" href="#top">Home</a>
+          <a class="footerlink" href="https://www.qmul.ac.uk/">QMUL</a>
+
+          <p><i>Copyright &copy; 2020 Kinga Garbowska</p>
         </footer>
 
 
