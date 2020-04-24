@@ -53,8 +53,9 @@ session_start();
                 <section>
                   <h3 class="cursorChange" data-toggle="collapse" data-target="#collapseAbout" aria-expanded="true" aria-controls="card-block">About me</h3>
                   <p id="collapseAbout" class="collapse">
-                    My name is Kinga Garbowska and I am a student at <em>Queen Mary, University of London.</em> Currently, I am in my firt year of the computer science undergraduate course.
+                    My name is Kinga Garbowska and I am a student at <em>Queen Mary, University of London.</em> Currently, I am in my first year of the computer science undergraduate course.
                     This is my first portfolio website, where you can find out a bit more about me and my interests.
+
                   </p>
                 </section>
 
@@ -64,7 +65,7 @@ session_start();
                     From my degree so far, I have acquired numerous technical skills. These include programming in java in procedural and object-oriented styles, creating a webpage using HTML, css, bootstrap, php and javascript, logical thinking and professional research.
                     Alongside these technical skills, I also gained soft skills as a byproduct of participating in my modules. For example: Leadership, organizing planning and teamwork. I make sure to put myself out of my comfort zone with sports such as Taekwondo, which help me gain confidence and discipline. This encourages me to persevere and work hard, and significantly boosts my teamwork and leadership abilities.
                     I am also bilingual; I am fluent in Polish and English.
-                    I will write more about these experiences and skills in my blog, which I encourage you to check out <a href="viewBlog.php">here</a>.
+                    I will write more about these experiences and skills in my blog, which I encourage you to check out <a id="skillsLink" href="viewBlog.php">here</a>.
                   </p>
                 </section>
 

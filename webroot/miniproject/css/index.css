@@ -145,6 +145,14 @@ ul{
   margin-left: 3%;
 }
 
+#skillsLink{
+  color: #F95700;
+}
+
+#skillsLink:hover{
+  color: white;
+}
+
 footer{
   border-top: solid 30px;
   border-color: rgb(227,227,227);
