@@ -69,10 +69,10 @@ session_start();
                 </section>
 
                 <section>
-                  <h3 class="cursorChange" data-toggle="collapse" data-target="#collapseAchievements" aria-expanded="true" aria-controls="card-block">Achievements</h3>
+                  <h3 class="cursorChange" data-toggle="collapse" data-target="#collapseAchievements, #collapseAchievements2" aria-expanded="true" aria-controls="card-block">Achievements</h3>
                   <p id="collapseAchievements" class="collapse">
                     Here are some of my favorite achievements:
-                    <ul>
+                    <ul id="collapseAchievements2" class="collapse">
                       <li>Achieving AAB in Maths, Biology and Physics A-levels respectively</li>
                       <li>Being selected for a week of work experience at Canary Wharf Barclays</li>
                       <li>Competing in national ITF Taekwondo Tournaments</li>
