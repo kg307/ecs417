@@ -42,7 +42,7 @@ session_start();
         <article id="mainContainer">
 
           <?php
-
+            error_reporting(0);
             $con = new mysqli("10.129.17.32", "user", "password", "ecs417");
 
             require_once("nbbc.php");
@@ -86,9 +86,10 @@ session_start();
       </body>
 
       <footer class="mainColour">
-        email
-        phone
-        linkedin
+        <a class="footerlink" href="#top">Home</a>
+        <a class="footerlink" href="https://www.qmul.ac.uk/">QMUL</a>
+
+        <p><i>Copyright &copy; 2020 Kinga Garbowska</p>
       </footer>
 
 </html>
