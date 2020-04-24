@@ -107,7 +107,8 @@ session_start();
                 <section>
                   <h3 class="cursorChange" data-toggle="collapse" data-target="#collapseLinks" aria-expanded="true" aria-controls="card-block">Links</h3>
                   <p id="collapseLinks" class="collapse">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel porta nibh. Quisque iaculis dui sit amet lorem porttitor ullamcorper. Suspendisse et tellus nulla. Vestibulum vehicula auctor aliquet. Nunc tincidunt massa nunc, a pulvinar nibh imperdiet eu. Vivamus risus ipsum, luctus a vestibulum a, convallis sed lectus. Praesent eu orci mollis, mattis justo sit amet, elementum metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut at tristique velit.
+                    <a href="https://www.qmul.ac.uk/">Queen Mary, University of London</a>
+                    <a href="www.linkedin.com/in/kinga-garbowska-37a950197">my LinkedIn profile</a>
                   </p>
                 </section>
 
