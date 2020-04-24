@@ -85,7 +85,7 @@ session_start();
         <a href="addPost.html"> <button class="btn">Add Post</button></a>
       </body>
 
-      <footer class="mainColour">
+      <footer class="mainColour, stickybot">
         <a class="footerlink" href="#top">Home</a>
         <a class="footerlink" href="https://www.qmul.ac.uk/">QMUL</a>
 

@@ -107,8 +107,9 @@ session_start();
                 <section>
                   <h3 class="cursorChange" data-toggle="collapse" data-target="#collapseLinks" aria-expanded="true" aria-controls="card-block">Links</h3>
                   <p id="collapseLinks" class="collapse">
-                    <a href="https://www.qmul.ac.uk/">Queen Mary, University of London</a>
-                    <a href="www.linkedin.com/in/kinga-garbowska-37a950197">my LinkedIn profile</a>
+                    <a class="linksLinks" href="https://www.qmul.ac.uk/">Queen Mary, University of London</a>
+                    <br>
+                    <a class="linksLinks" href="www.linkedin.com/in/kinga-garbowska-37a950197">my LinkedIn profile</a>
                   </p>
                 </section>
 

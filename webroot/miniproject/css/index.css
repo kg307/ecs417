@@ -145,11 +145,11 @@ ul{
   margin-left: 3%;
 }
 
-#skillsLink{
+#skillsLink, .linksLinks{
   color: #F95700;
 }
 
-#skillsLink:hover{
+#skillsLink, .linksLinks:hover{
   color: white;
 }
 
