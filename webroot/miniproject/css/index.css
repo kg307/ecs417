@@ -141,6 +141,10 @@ button{
     cursor: pointer;
 }
 
+ul{
+  margin-left: 3%;
+}
+
 footer{
   border-top: solid 30px;
   border-color: rgb(227,227,227);
