@@ -85,7 +85,7 @@ session_start();
                   <h3 class="cursorChange" data-toggle="collapse" data-target="#collapseEducation" aria-expanded="true" aria-controls="card-block">Education</h3>
                   <p id="collapseEducation" class="collapse">
                     My education so far:
-                    <ol>
+                    <ol class="collapse">
                       <li><b>2017-2019</b> A Levels - Haberdashers' Aske's Hatcham College</li>
                       <li><b>2019-2023</b> UnderGraduate - Queen Mary University of London (Currently in progress)</li>
                     </ol>
