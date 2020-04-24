@@ -31,7 +31,7 @@
       <body>
 
         <div id="mainContainer">
-          <form method="POST" action="addPost.php">
+          <form name="post" method="POST" action="addPost.php" onsubmit="return preventDefault();">
 
 
             <fieldset>
@@ -39,7 +39,7 @@
               <div>
                 <label>Title</label>
                 <br>
-                <input type="text" placeholder="Add Title..." name="title" class="form-control" required/>
+                <input id="titleBox" type="text" placeholder="Add Title..." name="title" class="form-control"/>
               </div>
 
               <br>
@@ -47,7 +47,7 @@
               <div>
                 <label>Content</label>
                 <br>
-                <textarea rows="5" placeholder="Description..." name="content" class="form-control" required></textarea>
+                <textarea id="textBox" rows="5" placeholder="Description..." name="content" class="form-control"></textarea>
 
               </div>
 
@@ -62,6 +62,24 @@
             <script>
               function confirmClear(){
                 return confirm("Clear all text?");
+              }
+
+              function preventDefault(){
+                var txt = document.forms["post"]["content"].value;
+                var title = document.forms["post"]["title"].value;
+                var txtBox = document.querySelector("#textBox");
+                var titleBox = document.querySelector("#titleBox");
+
+                if(txt == ""){
+                  txtBox.style.backgroundColor = "#f0cecc";
+                  alert("Please enter content.");
+                  return false;
+                }
+                if(title == ""){
+                  titleBox.style.backgroundColor = "#f0cecc";
+                  alert("Please enter a title.");
+                  return false;
+                }
               }
             </script>
 
