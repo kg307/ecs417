@@ -146,11 +146,11 @@ ul{
 }
 
 #skillsLink, .linksLinks{
-  color: #F95700;
+  color: white;
 }
 
 #skillsLink, .linksLinks:hover{
-  color: white;
+  color: #F95700;
 }
 
 footer{

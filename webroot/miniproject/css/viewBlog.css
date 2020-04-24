@@ -59,7 +59,8 @@ nav ul{
 .stickybot {
   position: fixed;
   bottom: 0;
-  width: 100%
+  width: 100%;
+  background-color: #F95700;
 }
 
 body{
