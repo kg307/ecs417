@@ -82,10 +82,10 @@ session_start();
                 </section>
 
                 <section>
-                  <h3 class="cursorChange" data-toggle="collapse" data-target="#collapseEducation" aria-expanded="true" aria-controls="card-block">Education</h3>
+                  <h3 class="cursorChange" data-toggle="collapse" data-target="#collapseEducation, #collapseEducation2" aria-expanded="true" aria-controls="card-block">Education</h3>
                   <p id="collapseEducation" class="collapse">
                     My education so far:
-                    <ol class="collapse">
+                    <ol id="collapseEducation2" class="collapse">
                       <li><b>2017-2019</b> A Levels - Haberdashers' Aske's Hatcham College</li>
                       <li><b>2019-2023</b> UnderGraduate - Queen Mary University of London (Currently in progress)</li>
                     </ol>
