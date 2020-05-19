@@ -1,6 +1,7 @@
 
 
 <?php
+require 'dbh.inc.php';
 session_start();
 
 if(isSet($_SESSION["loggedin"])){

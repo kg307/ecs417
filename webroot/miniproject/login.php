@@ -1,7 +1,7 @@
 
 
 <?php
-
+require 'dbh.inc.php';
 session_start();
 
 $con = mysqli_connect("10.129.17.32", "user", "password");
