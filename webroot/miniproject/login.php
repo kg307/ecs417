@@ -23,14 +23,14 @@ $result = mysqli_query($con, $s); //returns all rows that contain the requested 
 $validation = mysqli_num_rows($result); //checks how many login details in the database match the input
 //should be only 1 if correct details entered
 
-
-if($validation ==1){
-  header("location: addPost.html");
-  $_SESSION["loggedin"] = true;
-}
-else{
-  header("location: index.php");
-  $error = "Your Login Name or Password is invalid";
-}
+echo "error".mysqli_error($conn);
+//if($validation ==1){
+  //header("location: addPost.html");
+  //$_SESSION["loggedin"] = true;
+//}
+//else{
+  //header("location: index.php");
+  //$error = "Your Login Name or Password is invalid";
+//}
 
 ?>
