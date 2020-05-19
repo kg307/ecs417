@@ -116,7 +116,7 @@ session_start();
               </article>
             </div>
 
-
+            <aside>
             <div id = "login" class="col-sm-3">
               <?php
                 if (!isset($_SESSION["loggedin"]) || empty($_SESSION['email'])){  ?>
@@ -161,6 +161,7 @@ session_start();
               ?>
 
             </div>
+            </aside>
 
           </div>
         </div>
