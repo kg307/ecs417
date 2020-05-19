@@ -80,6 +80,10 @@ section{
   margin-bottom: 2em;
 }
 
+aside{
+  width: 100%;
+}
+
 #login{
   background-color: rgb(227,227,227);
   color: #00A4CC;
@@ -87,7 +91,6 @@ section{
   font-family: "Arial Black", Gadget, sans-serif;
 
   margin-left: 2%;
-  width: 10em;
 
   border-top: solid 10px;
   border-bottom: solid 10px;
