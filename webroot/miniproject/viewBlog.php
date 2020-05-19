@@ -1,5 +1,4 @@
 <?php
-require 'dbh.inc.php';
 session_start();
 ?>
 
@@ -44,7 +43,8 @@ session_start();
 
           <?php
             error_reporting(0);
-            //$con = new mysqli("10.129.17.32", "user", "password", "ecs417");
+            $server = getenv("MYSQL_SERVICE_HOST");
+            $con = new mysqli($server, "user", "password", "ecs417");
 
             require_once("nbbc.php");
             $bbcode = new BBCode;

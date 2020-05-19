@@ -1,12 +1,12 @@
 
 
 <?php
-require 'dbh.inc.php';
+
 session_start();
+$server = getenv("MYSQL_SERVICE_HOST");
+$con = mysqli_connect($server, "user", "password");
 
-//$con = mysqli_connect("10.129.17.32", "user", "password");
-
-//mysqli_select_db($con, ecs417);
+mysqli_select_db($con, ecs417);
 
 $email = $_POST["email"];
 $password = $_POST["password"];
@@ -23,14 +23,14 @@ $result = mysqli_query($con, $s); //returns all rows that contain the requested 
 $validation = mysqli_num_rows($result); //checks how many login details in the database match the input
 //should be only 1 if correct details entered
 
-echo "error".mysqli_error($conn);
-//if($validation ==1){
-  //header("location: addPost.html");
-  //$_SESSION["loggedin"] = true;
-//}
-//else{
-  //header("location: index.php");
-  //$error = "Your Login Name or Password is invalid";
-//}
+
+if($validation ==1){
+  header("location: addPost.html");
+  $_SESSION["loggedin"] = true;
+}
+else{
+  header("location: index.php");
+  $error = "Your Login Name or Password is invalid";
+}
 
 ?>
