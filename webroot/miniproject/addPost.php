@@ -7,7 +7,7 @@ session_start();
 if(isSet($_SESSION["loggedin"])){
 
 
-    $con = new mysqli("10.129.17.32", "user", "password", "ecs417");
+    //$con = new mysqli("10.129.17.32", "user", "password", "ecs417");
 
     $title = $_POST["title"];
     $content = $_POST["content"];
